@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+font-family: 'Lato', sans-serif;
+background-color: #f3f4f8;
+}
+.icons_header li a svg {
+height: 20px;
+width: 20px;
+}
+.navbar-brand img {
+max-width: 200px;
+}
+header .navbar-nav li a {
+color: #fff !important;
+}
+.cst_nav li {
+margin: 0 15px;
+}
+
+.p_text {
+font-size: 24px;
+margin-bottom: 7px;
+letter-spacing: 1px;
+background-color: #f3ec78;
+background-image: linear-gradient(45deg, #f3ec78, #af4261);
+background-size: 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+}
+.sub_text {
+font-size: 30px;
+color: #01aad5;
+font-weight: bold;
+letter-spacing: 1px;
+margin-bottom: 5px;
+}
+.main_head {
+font-size: 60px;
+line-height: 40px;
+color: #01aad5;
+font-weight: bold;
+letter-spacing: 2px;
+line-height: 60px;
+}
+.banner_btn a {
+background-color: #fff;
+color: #47c0ad;
+max-width: 200px;
+display: block;
+padding: 10px;
+border-radius: 20px;
+text-align: center;
+letter-spacing: 2px;
+text-decoration: none;
+}
+.overlay {
+max-width: 600px;
+text-align: left;
+}
+.carousel-caption{
+left: 5%;
+}
+.btn-grad {background-image: linear-gradient(to right bottom, rgb(0, 67, 255) 0%, rgb(105, 204, 202) 100%);}
+.btn-grad {
+margin: 0;
+padding: 0px 45px;
+text-align: center;
+text-transform: inherit;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+box-shadow: none;
+border-radius: 30px;
+display: block;
+border: none;
+line-height: 44px;
+-webkit-transition: all 2s;
+-moz-transition: all 2s;
+transition: all 2s;
+font-weight:500;
+
+}
+
+.btn-grad:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+background-image: linear-gradient(to right bottom, rgb(105, 204, 202) 0%, rgb(0, 67, 255) 100%);
+}
+.heading h1 {
+font-size: 60px;
+color: #01aad5;
+margin-bottom: 50px;
+font-weight: 700;
+}
+.grey_txt {
+color: #a2afbe;
+font-size: 18px;
+}
+.img_1 {
+background-image: url('../image/img22.png');
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+flex-direction: column;
+height: 370px;
+background-size: cover;
+background-position: 163px 20px;
+background-repeat: no-repeat;
+background-color: #fff;
+}
+.img_2 {
+background-image: url('../image/img11.png');
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+flex-direction: column;
+height: 370px;
+background-size: cover;
+background-position: 163px 20px;
+background-repeat: no-repeat;
+background-color: #fff;
+}
+.img_3 {
+background-image: url('../image/img33.png');
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+flex-direction: column;
+height: 370px;
+background-size: cover;
+background-position: 163px 20px;
+background-repeat: no-repeat;
+background-color: #fff;
+}
+.imgss {
+text-align: left;
+}
+.imgss h2 {
+font-weight: 700;
+}
+.imgss {
+padding: 30px 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+}
+.three_image {
+padding: 100px 0 100px 0;
+}
+.desktop{
+display:block;
+}
+.mobile{
+display:none !important;
+}
+.darkHeader{
+background-color:#000;
+}
+.fa.fa-bars.navbar-toggler-icon {
+color: #fff;
+background-image: none;
+height: 100%;
+width: 100%;
+}
+.navbar-light .navbar-toggler {
+border-color: #fff;
+}
+.car_box img {
+max-width: 100px;
+margin-bottom: 15px;
+}
+.car_box {
+text-align: center;
+margin: 10px 0;
+}
+section.car_icons .container {
+
+padding-top:10px;
+padding-bottom: 10px;
+}
+section.car_icons .container .row{
+background-color: #fff;
+}
+section.car_icons {
+margin: 100px 0;
+}
+.car_box p {
+font-size: 16px;
+font-weight: bold;
+}
+section.Probefahren {
+    position: relative;
+    padding: 100px 0;
+}
+section.Probefahren .container{
+background: #fff;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.sheet img {
+max-width: 650px;
+position: absolute;
+right: 10%;
+top: 50%;
+transform: translateY(-50%);
+box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 30%);
+-webkit-box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 30%);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+border-radius: 5px;
+height:420px;
+}
+.small_ttl {
+font-size: 30px;
+color: #01aad5;
+font-weight: 700;
+}
+.man_ttl {
+font-size: 80px;
+color: #01aad5;
+font-weight: bold;
+line-height: 80px;
+}
+.ttll {
+color: #000;
+font-weight: 700;
+font-size: 20px;
+}
+.left_content {
+padding: 0 10%;
+}
+li.nav-item.linkss {
+display: flex;
+align-items: center;
+}
+li.nav-item.linkss a {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 1px;
+    min-width: 100px;
+    text-align: center;
+}
+.container.img_txt .row .col-md-6.col-lg-4 {
+    margin-bottom: 10px;
+}
+.navbar-nav li a:hover , .banner_btn a:hover{
+   color:#fff;
+    background: linear-gradient(to right bottom, rgb(0, 67, 255) 0%, rgb(105, 204, 202) 100%) !important;
+}
+.carousel-indicators {
+    display: none;
+}
+/*responsive css*/
+@media only screen and (max-width: 1024px) {
+    header .navbar-nav li a {
+    color: #fff !important;
+    padding: 10px !important;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.sheet img{
+position: relative;
+top: inherit;
+transform: none;
+right: inherit;
+max-width: 100%;
+}
+section.Probefahren .container .row .col-12 {
+display: flex;
+flex-direction: column-reverse;
+}
+.left_content {
+padding: 20px 0;
+}
+.small_ttl {
+font-size: 24px;
+color: #01aad5;
+font-weight: 700;
+}
+.img_txt .row .col-md-6.col-lg-4 {
+margin-bottom: 20px;
+}
+.sheet img {
+    height:auto;
+}
+}
+@media only screen and (max-width: 767px) {
+.heading h1{font-size:40px;}
+.three_image {
+padding: 40px 0 40px 0;
+}
+.img_txt .row .col-md-6.col-lg-4 {
+margin-bottom: 20px;
+}
+.desktop{
+display:none !important;
+}
+.mobile{
+display:block !important;
+}
+.icons_header  li {
+margin: 0 15px;
+}
+section.car_icons {
+margin: 0px ;
+}
+section.car_icons .container .row{
+padding-top: 40px;
+}
+section.car_icons .container .row .col-xs-12.col-sm-6.col-md-6.col-lg-3{
+margin-bottom: 20px;
+}
+.sheet img{
+position: relative;
+top: inherit;
+transform: none;
+right: inherit;
+max-width: 100%;
+}
+section.car_icons .container{
+padding-bottom: 0;
+}
+section.Probefahren .container .row .col-12 {
+display: flex;
+flex-direction: column-reverse;
+}
+.left_content {
+padding: 20px 0;
+}
+.small_ttl {
+font-size: 24px;
+color: #01aad5;
+font-weight: 700;
+}
+section.Probefahren{
+    padding-top: 0;
+}
+}
